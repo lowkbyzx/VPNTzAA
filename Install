@@ -269,7 +269,7 @@ else
 		rm -rf /etc/openvpn/easy-rsa/
 	fi
 
-	wget -O ~/EasyRSA-3.0.4.tgz "https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.4/EasyRSA-nix-3.0.5.tgz"
+	wget -O ~/EasyRSA-3.0.4.tgz "https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.4/EasyRSA-3.0.4.tgz"
 	tar xzf ~/EasyRSA-3.0.4.tgz -C ~/
 	mv ~/EasyRSA-3.0.4/ /etc/openvpn/
 	mv /etc/openvpn/EasyRSA-3.0.4/ /etc/openvpn/easy-rsa/
@@ -997,7 +997,7 @@ END
 	/etc/init.d/squid restart
 	clear
 	echo ""
-		echo " VPNThailand FREE"
+		echo " VPNThailand FREE v1"
 		echo ""
 	echo "Squid Proxy .....Install finish."
 	echo "IP Proxy : $IP"
